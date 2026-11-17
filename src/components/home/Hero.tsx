@@ -38,13 +38,10 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[460px] border border-gold/30">
             <img
-              src="/images/placeholder/bottle-a.svg"
-              alt="Placeholder fragrance bottle — hero photography to be supplied"
-              className="h-full w-full object-cover"
-            />
-            <span className="absolute bottom-4 right-4 bg-obsidian/80 px-3 py-1.5 text-[9px] uppercase tracking-wide2 text-ivory/60">
-              Placeholder — hero photography to come
-            </span>
+  src="/images/hero-banner.jpeg"
+  alt="Maison Alvaro luxury perfume collection"
+  className="h-full w-full object-cover"
+/>
           </div>
         </div>
       </div>
