@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: #090707;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-obsidian font-sans text-ivory antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  ::selection {
+    background: #d6a65b;
+    color: #090707;
+  }
+  :focus-visible {
+    outline: 1px solid #d6a65b;
+    outline-offset: 3px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif font-medium;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .container-luxe {
+    @apply mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-12;
+  }
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-luxe text-gold;
+  }
+  .gold-rule {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold/50 to-transparent;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 text-[11px] font-medium uppercase tracking-luxe transition-colors duration-300 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-gold {
+    @apply btn bg-gold text-obsidian hover:bg-gold-soft;
+  }
+  .btn-outline {
+    @apply btn border border-gold/70 text-ivory hover:bg-gold hover:text-obsidian;
+  }
+  .btn-outline-dark {
+    @apply btn border border-obsidian text-obsidian hover:bg-obsidian hover:text-ivory;
+  }
+  .field {
+    @apply w-full border border-ivory/20 bg-transparent px-4 py-3 text-sm text-ivory placeholder:text-ivory/35 transition-colors focus:border-gold focus:outline-none;
+  }
+  .field-label {
+    @apply mb-2 block text-[11px] uppercase tracking-wide2 text-ivory/60;
+  }
+  .field-error {
+    @apply mt-1.5 text-xs text-[#e0636a];
+  }
+  .link-underline {
+    @apply relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 hover:after:scale-x-100;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

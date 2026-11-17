@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder fragrance bottle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#30201B"/><stop offset="1" stop-color="#090707"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D6A65B" stop-opacity=".08"/><stop offset=".5" stop-color="#D6A65B" stop-opacity=".22"/><stop offset="1" stop-color="#D6A65B" stop-opacity=".06"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="270" y="400" width="260" height="360" fill="url(#glass)" stroke="#D6A65B" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="300" y="470" width="200" height="230" fill="none" stroke="#D6A65B" stroke-opacity=".3"/>
+  <rect x="355" y="320" width="90" height="80" fill="#D6A65B" fill-opacity=".25" stroke="#D6A65B" stroke-opacity=".8" stroke-width="2"/>
+  <rect x="335" y="260" width="130" height="60" fill="#09070700" stroke="#D6A65B" stroke-width="2"/>
+  <line x1="200" y1="760" x2="600" y2="760" stroke="#D6A65B" stroke-opacity=".35"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#D6A65B" fill-opacity=".8" letter-spacing="6">MA</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#F3EBDD" fill-opacity=".45" letter-spacing="8">DEMO IMAGE</text>
+</svg>

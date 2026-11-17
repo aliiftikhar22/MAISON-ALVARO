@@ -1,0 +1,18 @@
+{
+  "firestore": { "rules": "firestore.rules" },
+  "hosting": {
+    "public": "out",
+    "cleanUrls": false,
+    "trailingSlash": true,
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "/products/**", "destination": "/products/_shell/index.html" }
+    ],
+    "headers": [
+      {
+        "source": "/images/**",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      }
+    ]
+  }
+}

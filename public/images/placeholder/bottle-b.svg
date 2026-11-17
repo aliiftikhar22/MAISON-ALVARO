@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder fragrance bottle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#30201B"/><stop offset="1" stop-color="#090707"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9E171D" stop-opacity=".1"/><stop offset=".5" stop-color="#9E171D" stop-opacity=".35"/><stop offset="1" stop-color="#9E171D" stop-opacity=".1"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <path d="M290 470 Q290 400 350 400 L450 400 Q510 400 510 470 L510 700 Q510 760 450 760 L350 760 Q290 760 290 700 Z" fill="url(#glass)" stroke="#D6A65B" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="365" y="330" width="70" height="70" fill="#D6A65B" fill-opacity=".25" stroke="#D6A65B" stroke-opacity=".8" stroke-width="2"/>
+  <circle cx="400" cy="270" r="48" fill="none" stroke="#D6A65B" stroke-width="2"/>
+  <line x1="200" y1="760" x2="600" y2="760" stroke="#D6A65B" stroke-opacity=".35"/>
+  <text x="400" y="600" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#D6A65B" fill-opacity=".8" letter-spacing="6">MA</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#F3EBDD" fill-opacity=".45" letter-spacing="8">DEMO IMAGE</text>
+</svg>

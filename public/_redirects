@@ -1,0 +1,3 @@
+# Netlify: serve the product shell for products created after the build.
+# Prebuilt product pages are served first because no force flag is set.
+/products/*  /products/_shell/index.html  200

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder gift box">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#30201B"/><stop offset="1" stop-color="#090707"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="200" y="420" width="400" height="320" fill="#090707" stroke="#D6A65B" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="180" y="370" width="440" height="70" fill="#30201B" stroke="#D6A65B" stroke-opacity=".7" stroke-width="2"/>
+  <line x1="400" y1="370" x2="400" y2="740" stroke="#9E171D" stroke-width="14"/>
+  <text x="400" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#D6A65B" fill-opacity=".85" letter-spacing="6" stroke="#090707" stroke-width="8" paint-order="stroke">MA</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#F3EBDD" fill-opacity=".45" letter-spacing="8">DEMO IMAGE</text>
+</svg>
